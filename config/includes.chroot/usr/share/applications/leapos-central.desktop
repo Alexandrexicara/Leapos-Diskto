@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Central do LeapOS
+Comment=Ferramentas e manutencao segura do sistema
+Exec=python3 -m leapos
+Icon=utilities-system-monitor
+Terminal=false
+Categories=System;Settings;
