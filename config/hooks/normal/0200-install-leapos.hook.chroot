@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+install -d /usr/local/lib/python3/dist-packages/leapos /usr/share/leapos/config
+cp -a /src/leapos/. /usr/local/lib/python3/dist-packages/leapos/
+cp -a /config/apps.json /usr/share/leapos/config/apps.json
