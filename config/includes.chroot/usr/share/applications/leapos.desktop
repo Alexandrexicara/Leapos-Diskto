@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LeapOS
+Comment=Ambiente de trabalho LeapOS
+Exec=python3 -m leapos
+Icon=computer
+Terminal=false
+Categories=System;
