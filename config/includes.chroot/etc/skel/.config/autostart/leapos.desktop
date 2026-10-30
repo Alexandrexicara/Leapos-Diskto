@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=LeapOS Desktop
+Exec=python3 -m leapos
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
