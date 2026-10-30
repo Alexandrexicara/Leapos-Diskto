@@ -1,0 +1,5 @@
+{
+  "apps": [
+    {"id":"telepronto","name":"TelePronto","description":"Teleprompter online integrado ao desktop LeapOS.","url":"https://telepronto.netlify.app/","category":"Produtividade","price_cents":0,"currency":"BRL","access_mode":"leapos_license","embed_enabled":true,"enabled":true}
+  ]
+}
