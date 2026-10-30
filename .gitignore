@@ -1,0 +1,8 @@
+*.iso
+*.img
+.chroot/
+.binary/
+.build/
+.venv/
+__pycache__/
+*.py[cod]
