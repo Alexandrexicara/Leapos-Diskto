@@ -1,9 +1,9 @@
 """Catalogo local dos aplicativos integrados ao LeapOS."""
 import json
 from pathlib import Path
-
-ROOT=Path(__file__).resolve().parents[2]
-CATALOG=ROOT/"config"/"apps.json"
+SYSTEM_CATALOG=Path("/usr/share/leapos/config/apps.json")
+DEV_CATALOG=Path(__file__).resolve().parents[2]/"config"/"apps.json"
+CATALOG=SYSTEM_CATALOG if SYSTEM_CATALOG.exists() else DEV_CATALOG
 
 def load_apps():
     try:
